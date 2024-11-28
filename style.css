@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-image: url(./assets/backgraundMoedas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/*body {
+    background-image: url(./assets/backgraundMoedas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.escolher-moeda {
+    background-color: rgba(136, 133, 133, 0.8);
+    height: 35px;
+    color: #ffff00;
+    font-size: 16px;
+    margin-top: 5px;
+    outline: none;
+    padding: 0 47px 0 3px;
+    border-radius: 5px;
+}
+
+.Moeda-convertida {
+    background-color: rgba(136, 133, 133, 0.8);
+    height: 35px;
+    color: #ffff00;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 0 14px 0 2px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.Valores-convertido {
+    background-color: rgba(136, 133, 133, 0.8);
+    height: 35px;
+    font-size: 16px;
+    color: #ffff00;
+    border: none;
+    outline: none;
+    padding: 0 3px 0 3px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+
+.Valores-convertido::placeholder {
+    color: #ffff00;
+
+}
+
+/*.escolher-moeda{
+    padding-right: 41px;
+}*/
+
+.button-convert {
+    margin-top: 5px;
+    background-color: #ffff00;
+    width: 122px;
+    height: 30px;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(136, 133, 133, 0.8);
+    width: 98%;
+    height: auto;
+    padding-top: 5%;
+
+}
+
+section,
+.moedas-escolhidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.real-brasileiro {
+    color: #ffff00;
+    /* Cor amarela */
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.bandeira-das-moedas {
+    margin-top: 10px;
+}
+
+.Dola-Americano {
+    color: #1100ff;
+    /* Cor amarela */
+    font-size: 16px;
+    margin: 5px 0;
+}
